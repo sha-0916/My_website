@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Shubhi Sharma - Software Developer & AI Researcher specializing in automation, machine learning, and full-stack development. Based in Erlangen, Germany." />
+    <meta name="keywords" content="Software Developer, AI Researcher, Machine Learning, Python, C++, Qt Creator, PyTorch, Automation, Full Stack Developer" />
+    <meta name="author" content="Shubhi Sharma" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://shubhi-sharma.dev/" />
+    <meta property="og:title" content="Shubhi Sharma - Software Developer & AI Researcher" />
+    <meta property="og:description" content="Passionate about bridging the gap between human intelligence and artificial minds. 3+ years of experience in AI, automation, and full-stack development." />
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://shubhi-sharma.dev/" />
+    <meta property="twitter:title" content="Shubhi Sharma - Software Developer & AI Researcher" />
+    <meta property="twitter:description" content="Passionate about bridging the gap between human intelligence and artificial minds. 3+ years of experience in AI, automation, and full-stack development." />
+    
+    <!-- Preconnect to external domains for performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    
+    <title>Shubhi Sharma - Software Developer & AI Researcher</title>
+    
+    <style>
+      /* Prevent flash of unstyled content */
+      body {
+        font-family: 'Inter', system-ui, -apple-system, sans-serif;
+        background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #0f172a 100%);
+        color: white;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+      }
+      
+      /* Loading spinner */
+      .loading {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #0f172a 100%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 9999;
+      }
+      
+      .spinner {
+        width: 50px;
+        height: 50px;
+        border: 3px solid rgba(16, 185, 129, 0.3);
+        border-top: 3px solid #10b981;
+        border-radius: 50%;
+        animation: spin 1s linear infinite;
+      }
+      
+      @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+      
+      /* Hide loading when React takes over */
+      #root:not(:empty) + .loading {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <div class="loading">
+      <div class="spinner"></div>
+    </div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
