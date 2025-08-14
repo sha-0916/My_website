@@ -38,7 +38,7 @@ const Hero: React.FC = () => {
           <div className="relative group">
             <div className="w-40 h-40 mx-auto rounded-full overflow-hidden shadow-2xl border-2 border-emerald-500">
               <img
-                src="/profile-pic.png"
+                src="./profile-pic.png"
                 alt="Shubhi Sharma"
                 className="w-full h-full object-contain"
               />
