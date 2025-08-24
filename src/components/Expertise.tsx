@@ -13,7 +13,7 @@ const Expertise: React.FC = () => {
       title: "Frameworks & Tools",
       description: "My digital Swiss Army knife",
       icon: "🛠️",
-      skills: ["PyTorch", "GitLab", "Anaconda", "LabVIEW", "COMSOL Multiphysics", "Pandas","Qt Creator"]
+      skills: ["PyTorch", "Pyflask", "GitLab", "Anaconda", "LabVIEW", "COMSOL Multiphysics", "Pandas","Qt Creator"]
     },
     {
       title: "Databases",

@@ -3,6 +3,13 @@ import { Award } from 'lucide-react';
 
 const Achievements: React.FC = () => {
   const achievements = [
+      {
+        emoji: "🩺",
+        number: "AI Health",
+        label: "PCOS Assistant",
+        title: "PCOS Risk & Counseling Tool",
+        description: "Built an AI-powered assistant for PCOS risk prediction and guideline-based counseling using ML, RAG, and local LLMs."
+      },
     {
       emoji: "🤖",
       number: "Top Select",
