@@ -98,7 +98,7 @@ const Expertise: React.FC = () => {
                 <div>
                   <h3 className="text-2xl font-bold text-white">MSc Computational Engineering</h3>
                   <p className="text-base text-gray-400">FAU Erlangen, Germany</p>
-                  <p className="text-sm text-gray-500 flex items-center gap-1 mt-1"><Calendar className="w-4 h-4" />10/2018 – 12/2024</p>
+                  <p className="text-sm text-gray-500 flex items-center gap-1 mt-1"><Calendar className="w-4 h-4" />10/2018 – 07/2025</p>
                 </div>
               </div>
               <div className="bg-gray-800/70 rounded-xl p-4 border border-white/10">
