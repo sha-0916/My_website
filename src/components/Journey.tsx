@@ -18,10 +18,10 @@ const Journey: React.FC = () => {
       title: "Software Developer (Part-time)",
       company: "PANOVO tec GmbH (R&D)",
       location: "Nuremberg, Germany",
-      period: "09/2023 – Present",
-      description: "Currently crafting automation magic that makes manual tasks disappear!",
+      period: "09/2023 – 06/2025",
+      description: "Crafted automation magic that makes manual tasks disappear!",
       highlights: [
-        "🛠️ Building automation systems with Qt Creator and C++ that actually work",
+        "🛠️ Built automation systems with Qt Creator and C++ that actually work",
         "🎯 Designed full-stack solutions that cut calibration time by 60% (yes, really!)",
         "💾 Deployed web interfaces on microcontrollers (talk about constraints!)",
         "🔧 Integrated external libraries to boost performance beyond internal frameworks"
